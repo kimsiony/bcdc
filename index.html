@@ -20,6 +20,7 @@ body{
   padding:28px;
 }
 
+/* 헤더 */
 .header{
   display:flex;
   justify-content:space-between;
@@ -44,6 +45,7 @@ body{
   backdrop-filter:blur(8px);
 }
 
+/* 카드 */
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
@@ -71,7 +73,7 @@ body{
 }
 
 .name{
-  font-size:22px;
+  font-size:18px;
   font-weight:700;
   margin-top:10px;
 }
@@ -79,23 +81,6 @@ body{
 .desc{
   opacity:.85;
   margin-top:8px;
-}
-
-.tools{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-  gap:12px;
-  margin-top:26px;
-}
-
-.btn{
-  background:#fff;
-  color:#0f172a;
-  padding:14px;
-  border-radius:16px;
-  text-align:center;
-  font-weight:700;
-  cursor:pointer;
 }
 
 footer{
@@ -107,13 +92,14 @@ footer{
 </head>
 
 <body>
+
 <div class="wrap">
 
   <!-- 헤더 -->
   <div class="header">
     <div>
       <div class="title">🏫 스마트수업 바로가기</div>
-      <div class="sub">수업 자료 · 빠른 실행 · 공용 PC 최적화</div>
+      <div class="sub">수업 자료 · 영상 모음</div>
     </div>
 
     <div class="clock">
@@ -122,56 +108,85 @@ footer{
     </div>
   </div>
 
-  <!-- 카드 영역 -->
+  <!-- 카드 -->
   <div class="grid">
 
     <a class="card" href="https://view.genially.com/69e986950abadc2446c7d65c" target="_blank">
       <div class="emoji">🎵</div>
       <div class="name">뮤직마스터</div>
-      <div class="desc">음악 퀴즈/게임형 수업</div>
+      <div class="desc">음악 퀴즈 게임</div>
     </a>
 
     <a class="card" href="https://view.genially.com/69e9835d4100ff98ecb8aaf4" target="_blank">
       <div class="emoji">🪐</div>
-      <div class="name">태양계를 구해라</div>
-      <div class="desc">과학 탐험 미션</div>
+      <div class="name">태양계 미션</div>
+      <div class="desc">과학 게임</div>
     </a>
 
     <a class="card" href="https://view.genially.com/69e9a1944100ff98ecc42c43" target="_blank">
       <div class="emoji">🏛️</div>
-      <div class="name">박물관 개관하기</div>
-      <div class="desc">사회/역사 프로젝트</div>
+      <div class="name">박물관 프로젝트</div>
+      <div class="desc">사회 활동</div>
     </a>
 
     <a class="card" href="https://www.google.com" target="_blank">
       <div class="emoji">🔎</div>
-      <div class="name">검색 바로가기</div>
-      <div class="desc">자료 즉시 검색</div>
+      <div class="name">검색</div>
+      <div class="desc">빠른 자료 찾기</div>
     </a>
 
     <a class="card" href="https://edugames.uz/game/arqon/" target="_blank">
       <div class="emoji">🧮</div>
-      <div class="name">수학 줄다리기</div>
-      <div class="desc">게임으로 배우는 수학 대결</div>
+      <div class="name">수학 게임</div>
+      <div class="desc">줄다리기 수학</div>
     </a>
 
-    <!-- 추가된 Quick Draw -->
     <a class="card" href="https://quickdraw.withgoogle.com/?locale=ko" target="_blank">
       <div class="emoji">✏️</div>
       <div class="name">Quick, Draw!</div>
-      <div class="desc">AI가 그림을 맞추는 게임</div>
+      <div class="desc">AI 그림 게임</div>
+    </a>
+
+    <a class="card" href="https://artsandculture.google.com/experiment/blob-beats/ZgF_e3-CO-iRPw?hl=en" target="_blank">
+      <div class="emoji">🎹</div>
+      <div class="name">Blob Beats</div>
+      <div class="desc">리듬 게임</div>
+    </a>
+
+    <a class="card" href="https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw?hl=en" target="_blank">
+      <div class="emoji">🎵</div>
+      <div class="name">Blob Opera</div>
+      <div class="desc">오페라 연습</div>
+    </a>
+
+    <a class="card" href="https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw?hl=en" target="_blank">
+      <div class="emoji">🎻</div>
+      <div class="name">Viola the Bird</div>
+      <div class="desc">비올라 더 버드</div>
+    </a>
+
+    <a class="card" href="https://youtu.be/0InGD75KGKc?si=asaP2V7mBjg7RXRy" target="_blank">
+      <div class="emoji">📺</div>
+      <div class="name">2025 일본 교원 방한연수 부천동초 스케치 영상</div>
+      <div class="desc">영상</div>
+    </a>
+
+    <a class="card" href="https://youtu.be/-jArE2Weg4M?si=8StHVYpfBc5IpMkw" target="_blank">
+      <div class="emoji">📺</div>
+      <div class="name">안녕 부천동초!1</div>
+      <div class="desc">영상</div>
+    </a>
+
+    <a class="card" href="https://youtu.be/eG-51mY6cYI?si=N_2L1ErryQupXkeF" target="_blank">
+      <div class="emoji">📺</div>
+      <div class="name">안녕 부천동초2</div>
+      <div class="desc">영상</div>
     </a>
 
   </div>
 
-  <!-- 버튼 -->
-  <div class="tools">
-    <div class="btn" onclick="location.reload()">🔄 새로고침</div>
-    <div class="btn" onclick="document.documentElement.requestFullscreen()">🖥️ 전체화면</div>
-  </div>
-
   <footer>
-    공용 PC 사용 가능 · 바로가기 페이지
+    스마트수업 바로가기
   </footer>
 
 </div>
